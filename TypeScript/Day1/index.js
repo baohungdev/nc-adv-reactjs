@@ -1,8 +1,10 @@
-var Person = /** @class */ (function () {
-    function Person() {
-        this.message = "hello word 3";
-    }
-    return Person;
-}());
-var p1 = new Person();
-console.log(p1.message);
+var firstName = "Duong Bao Hung";
+var numberOfCartItems = 5;
+var toogleHidden = true;
+var listUsers;
+var User;
+listUsers = ["18520061", "18520062", "18520063"];
+User = {
+    id: 100,
+    fullName: "John Smith"
+};
