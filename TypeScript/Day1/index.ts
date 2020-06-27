@@ -77,4 +77,6 @@ function takeLatestPrice(productItem: IproductItem): number {
 const latestPrice: number = takeLatestPrice(prM);
 
 console.log(latestPrice);
+console.log("hello");
+console.log("hello");
 //--------------------------------------------- //

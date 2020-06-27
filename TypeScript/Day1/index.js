@@ -60,3 +60,6 @@ function takeLatestPrice(productItem) {
 }
 var latestPrice = takeLatestPrice(prM);
 console.log(latestPrice);
+console.log("hello");
+console.log("hello");
+//--------------------------------------------- //
