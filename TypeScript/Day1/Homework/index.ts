@@ -80,8 +80,8 @@ const FinalPrice = (
 const withVAT = (list: number[], callback: (list: number[]) => void): void => {
   callback(list.map((price) => price + price / 10));
 };
-const getPhonePrices = (list: number[]): void => {
+const getPhonePrices = (list: number[]) => {
   list.forEach((price) => console.log(price));
 };
-const priceList = phones.list.map((phone) => phone.price);
+const priceList: number[] = phones.list.map((phone) => phone.price);
 FinalPrice(priceList, (priceLisT) => withVAT(priceList, getPhonePrices));
